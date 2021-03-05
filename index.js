@@ -6,14 +6,18 @@ const fi = (function () {
 
     each: function (collection, callback) {
       for (const key in collection) {
-        if (collection.hasOwnProperty(key)) {
-          callback(collection[key]);
-        }
+        callback(collection[key]);
       }
       return collection;
     },
 
-    map: function () {},
+    map: function (collection, callback) {
+      const result = [];
+      for (const key in collection) {
+        result.push(callback(collection[key]));
+      }
+      return result;
+    },
 
     reduce: function () {},
 

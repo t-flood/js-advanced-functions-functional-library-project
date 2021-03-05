@@ -2,12 +2,12 @@
   "stats": {
     "suites": 16,
     "tests": 34,
-    "passes": 8,
+    "passes": 10,
     "pending": 0,
-    "failures": 26,
-    "start": "2021-03-05T18:00:11.116Z",
-    "end": "2021-03-05T18:00:11.150Z",
-    "duration": 34
+    "failures": 24,
+    "start": "2021-03-05T18:16:35.701Z",
+    "end": "2021-03-05T18:16:35.739Z",
+    "duration": 38
   },
   "tests": [
     {
@@ -27,24 +27,21 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js map successfully returns a correctly populated array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'length' of undefined\n    at arraysEqual (test/indexTest.js:369:28)\n    at Context.<anonymous> (test/indexTest.js:43:14)\n    at processImmediate (internal/timers.js:458:21)",
-        "message": "Cannot read property 'length' of undefined"
-      }
+      "err": {}
     },
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js map does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -53,15 +50,12 @@
       "fullTitle": "index.js map successfully returns a correctly populated array from modified object values",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'length' of undefined\n    at arraysEqual (test/indexTest.js:369:28)\n    at Context.<anonymous> (test/indexTest.js:52:14)\n    at processImmediate (internal/timers.js:458:21)",
-        "message": "Cannot read property 'length' of undefined"
-      }
+      "err": {}
     },
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js map does not modify the original object",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -80,7 +74,7 @@
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when not passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 28",
@@ -149,7 +143,7 @@
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js size correctly returns the size of the collection (amount of keys) when an object is passed",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.size is not a function\n    at Context.<anonymous> (test/indexTest.js:143:17)\n    at processImmediate (internal/timers.js:458:21)",
@@ -269,7 +263,7 @@
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.uniq is not a function\n    at Context.<anonymous> (test/indexTest.js:309:24)\n    at processImmediate (internal/timers.js:458:21)",
@@ -279,7 +273,7 @@
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.uniq is not a function\n    at Context.<anonymous> (test/indexTest.js:317:25)\n    at processImmediate (internal/timers.js:458:21)",
@@ -334,26 +328,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "successfully returns a correctly populated array",
-      "fullTitle": "index.js map successfully returns a correctly populated array",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'length' of undefined\n    at arraysEqual (test/indexTest.js:369:28)\n    at Context.<anonymous> (test/indexTest.js:43:14)\n    at processImmediate (internal/timers.js:458:21)",
-        "message": "Cannot read property 'length' of undefined"
-      }
-    },
-    {
-      "title": "successfully returns a correctly populated array from modified object values",
-      "fullTitle": "index.js map successfully returns a correctly populated array from modified object values",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'length' of undefined\n    at arraysEqual (test/indexTest.js:369:28)\n    at Context.<anonymous> (test/indexTest.js:52:14)\n    at processImmediate (internal/timers.js:458:21)",
-        "message": "Cannot read property 'length' of undefined"
-      }
-    },
-    {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
       "duration": 0,
@@ -368,7 +342,7 @@
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when not passed an initial value",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 28",
@@ -430,7 +404,7 @@
     {
       "title": "correctly returns the size of the collection (amount of keys) when an object is passed",
       "fullTitle": "index.js size correctly returns the size of the collection (amount of keys) when an object is passed",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.size is not a function\n    at Context.<anonymous> (test/indexTest.js:143:17)\n    at processImmediate (internal/timers.js:458:21)",
@@ -550,7 +524,7 @@
     {
       "title": "removes duplicate values from an array",
       "fullTitle": "index.js uniq removes duplicate values from an array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.uniq is not a function\n    at Context.<anonymous> (test/indexTest.js:309:24)\n    at processImmediate (internal/timers.js:458:21)",
@@ -560,7 +534,7 @@
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.uniq is not a function\n    at Context.<anonymous> (test/indexTest.js:317:25)\n    at processImmediate (internal/timers.js:458:21)",
@@ -616,6 +590,13 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "successfully returns a correctly populated array",
+      "fullTitle": "index.js map successfully returns a correctly populated array",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -623,6 +604,13 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js map does not modify the original array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "successfully returns a correctly populated array from modified object values",
+      "fullTitle": "index.js map successfully returns a correctly populated array from modified object values",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -630,7 +618,7 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js map does not modify the original object",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
