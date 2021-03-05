@@ -5,9 +5,9 @@
     "passes": 10,
     "pending": 0,
     "failures": 24,
-    "start": "2021-03-05T18:16:35.701Z",
-    "end": "2021-03-05T18:16:35.739Z",
-    "duration": 38
+    "start": "2021-03-05T18:22:45.068Z",
+    "end": "2021-03-05T18:22:45.128Z",
+    "duration": 60
   },
   "tests": [
     {
@@ -27,7 +27,7 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,14 +41,14 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js map does not modify the original array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "successfully returns a correctly populated array from modified object values",
       "fullTitle": "index.js map successfully returns a correctly populated array from modified object values",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 40",
@@ -123,7 +123,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.filter is not a function\n    at Context.<anonymous> (test/indexTest.js:129:32)\n    at processImmediate (internal/timers.js:458:21)",
@@ -163,7 +163,7 @@
     {
       "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js first returns the first n elements of the collection when the second optional argument (n) is provided",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.first is not a function\n    at Context.<anonymous> (test/indexTest.js:155:29)\n    at processImmediate (internal/timers.js:458:21)",
@@ -183,7 +183,7 @@
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js last returns the last n elements of the collection when the second optional argument (n) is provided",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.last is not a function\n    at Context.<anonymous> (test/indexTest.js:167:29)\n    at processImmediate (internal/timers.js:458:21)",
@@ -233,7 +233,7 @@
     {
       "title": "correctly sorts arrays of integers with non-standard sort",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers with non-standard sort",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.sortBy is not a function\n    at Context.<anonymous> (test/indexTest.js:274:24)\n    at processImmediate (internal/timers.js:458:21)",
@@ -243,7 +243,7 @@
     {
       "title": "correctly flattens a ludicrously nested array",
       "fullTitle": "index.js flatten correctly flattens a ludicrously nested array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.flatten is not a function\n    at Context.<anonymous> (test/indexTest.js:289:26)\n    at processImmediate (internal/timers.js:458:21)",
@@ -273,7 +273,7 @@
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.uniq is not a function\n    at Context.<anonymous> (test/indexTest.js:317:25)\n    at processImmediate (internal/timers.js:458:21)",
@@ -330,7 +330,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js reduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 40",
@@ -384,7 +384,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js filter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.filter is not a function\n    at Context.<anonymous> (test/indexTest.js:129:32)\n    at processImmediate (internal/timers.js:458:21)",
@@ -424,7 +424,7 @@
     {
       "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js first returns the first n elements of the collection when the second optional argument (n) is provided",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.first is not a function\n    at Context.<anonymous> (test/indexTest.js:155:29)\n    at processImmediate (internal/timers.js:458:21)",
@@ -444,7 +444,7 @@
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js last returns the last n elements of the collection when the second optional argument (n) is provided",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.last is not a function\n    at Context.<anonymous> (test/indexTest.js:167:29)\n    at processImmediate (internal/timers.js:458:21)",
@@ -494,7 +494,7 @@
     {
       "title": "correctly sorts arrays of integers with non-standard sort",
       "fullTitle": "index.js sortBy correctly sorts arrays of integers with non-standard sort",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.sortBy is not a function\n    at Context.<anonymous> (test/indexTest.js:274:24)\n    at processImmediate (internal/timers.js:458:21)",
@@ -504,7 +504,7 @@
     {
       "title": "correctly flattens a ludicrously nested array",
       "fullTitle": "index.js flatten correctly flattens a ludicrously nested array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.flatten is not a function\n    at Context.<anonymous> (test/indexTest.js:289:26)\n    at processImmediate (internal/timers.js:458:21)",
@@ -534,7 +534,7 @@
     {
       "title": "removes duplicate values from an array when an iteratee is applied",
       "fullTitle": "index.js uniq removes duplicate values from an array when an iteratee is applied",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: fi.uniq is not a function\n    at Context.<anonymous> (test/indexTest.js:317:25)\n    at processImmediate (internal/timers.js:458:21)",
@@ -590,7 +590,7 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js each returns the original collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -604,14 +604,14 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js map does not modify the original array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "successfully returns a correctly populated array from modified object values",
       "fullTitle": "index.js map successfully returns a correctly populated array from modified object values",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
